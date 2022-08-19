@@ -1,8 +1,8 @@
 # flipperkit_http_interceptor
 
-[![pub package](https://img.shields.io/pub/v/flipperkit_http_interceptor.svg)](https://pub.dartlang.org/packages/flipperkit_http_interceptor)
+[![Original pub package](https://img.shields.io/pub/v/flipperkit_http_interceptor.svg)](https://pub.dartlang.org/packages/flipperkit_http_interceptor)
 
-English | [简体中文](./README.zh_CN.md)
+English
 
 > `flutter_flipperkit` does not support global interception of [http](https://github.com/dart-lang/http) library network requests, please set the network plugin `useHttpOverrides` parameter to `false`.
 
@@ -21,7 +21,10 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  flipperkit_http_interceptor: ^0.0.1
+  flutter_flipperkit:
+    git:
+      url: https://github.com/sengerts/flutter_flipperkit_plugins
+      ref: master
 ```
 
 You can install packages from the command line:
@@ -63,7 +66,7 @@ void sendRequest() async {
 ```
 MIT License
 
-Copyright (c) 2021 LiJianying <lijy91@foxmail.com>
+Copyright (c) 2022 sengerts <lijy91@foxmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
