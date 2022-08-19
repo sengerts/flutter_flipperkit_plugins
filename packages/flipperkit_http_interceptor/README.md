@@ -21,10 +21,11 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  flutter_flipperkit:
+  flipperkit_http_interceptor:
     git:
       url: https://github.com/sengerts/flutter_flipperkit_plugins
       ref: master
+      path: packages/flipperkit_http_interceptor
 ```
 
 You can install packages from the command line:
